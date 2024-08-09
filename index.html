@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>Hey! so you are exploring my work</h2>
+        <p class="new-edit">
+          Let me explain you how this project functionality was made.
+        </p>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="images/workhard2.jpg" alt="" />
+        </article>
+
+<div class="about-transparent">
+
+        <article class="about">
+       
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">HTML</button>
+            <button class="tab-btn" data-id="vision">CSS</button>
+            <button class="tab-btn" data-id="goals">JS</button>
+          </div>
+          <div class="about-content">
+        
+            <div class="content active" id="history">
+              <h4>html</h4>
+              <p>
+                We have created a section where one div holds the title and the paragraph above , the second div holds 2 article tags where the first one has 
+                the image and 2nd article tag holds 2 divs . One div for containing the buttons and the 2nd div for containing the information you are currently reading.
+                The information about the CSS and JS is hidden because I am using the "active" feature currently and so that's why I am the first thing you see when visiting this page.
+                Now you can check my fashion designer , CSS. 
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="vision">
+              <h4>CSS</h4>
+              <p>
+                Hi ! I am CSS , I am very lengthy to explain it to you but every design you are seeing like the fonts , the images , the buttons , the information ,
+                the animation , all has been beautified by me . The HTML data holds a few class in their divs , sections and article tags which I have specifically selected 
+                to add beauty and  animation , so the page looks visually appealing . Now you can check JS , he's the mastermind . 
+              </p>
+            
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <h4>JS</h4>
+              <p>
+                The reason you can switch between ME , HTML and CSS is because I am using "Event Targeting". Every button has a DataSet Id. 
+                So everytime you click on one of us, the DataSet Id is recognised, then we use "classList" to toggle and remove the "active" feature from the currently
+                displayed HTML information to the information you then clicked on . 
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+
+
+    </div>
+
+
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="index.js"></script>
+  </body>
+</html>
